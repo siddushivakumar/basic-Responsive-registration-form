@@ -1,0 +1,62 @@
+
+body{
+    background-image: url('4k.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin: 50px;
+}
+h1{
+    color: orange;
+}
+h5{
+    color: white;
+}
+/* Default styles */
+.fset {
+    width: 400px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .fset {
+      width: 90%;
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .fset {
+      width: 90%;
+      max-width: 300px;
+    }
+  }
+  
+  /* Additional styles for smaller screens */
+  @media (max-width: 320px) {
+    .fset {
+      width: 90%;
+      max-width: 250px;
+    }
+  }
+/* Default styles */
+@media (max-width: 280px) and (max-height: 653px) {
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }}
+.button{
+    background-color: #FF8700;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;    
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+}
